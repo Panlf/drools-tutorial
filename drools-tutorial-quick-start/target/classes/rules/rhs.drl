@@ -1,0 +1,14 @@
+package testrhs
+
+rule "rule_rhs_1"
+    when
+    then
+        System.out.println("rule_rhs_1触发了");
+        drools.halt();
+end
+
+rule "rule_rhs_2"
+    when
+    then
+        System.out.println("rule_rhs_2触发了");
+end
